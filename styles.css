@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial";
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  width: 1000px;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: white;
+  stroke-linejoin: round;
+}
+
+div.tooltip {
+  background: rgba(255, 255, 204, .9);
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  font: 12px Arial;
+  padding: 10px;
+  pointer-events: none;
+  position: absolute;
+}
+
+#title {
+  font-size: 3.5rem;
+}
+
+#description {
+  text-align: center;
+}
+
+#source {
+  align-self: flex-end;
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
